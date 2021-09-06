@@ -22,4 +22,3 @@ fetch(new Request("https://blockchain.info/ticker"))
   document.getElementById('TRY').innerHTML =  JSON.stringify(data.TRY["15m"]);
   document.getElementById('BRL').innerHTML =  JSON.stringify(data.BRL["15m"]);
 })
-a
